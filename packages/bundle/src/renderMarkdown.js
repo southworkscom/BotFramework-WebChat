@@ -8,8 +8,8 @@ const SANITIZE_HTML_OPTIONS = {
   allowedAttributes: {
     a: ['href', 'name', 'target', 'title'],
     img: ['alt', 'src']
-  },
-  allowedSchemes: ['http', 'https', 'ftp', 'mailto', 'sip'],
+  },  
+  allowedSchemes: ['data','http', 'https', 'ftp', 'mailto', 'sip'],
   allowedTags: [
     'a',
     'b',
